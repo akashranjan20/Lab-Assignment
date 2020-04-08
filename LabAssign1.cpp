@@ -8,7 +8,7 @@ class Numbers
 	public:
 		void readNumbers(void);
 		void printNumbers(void);
-		int calAddition(void);
+		int Addition(void);
 };
 void Numbers::readNumbers(void)
 {
@@ -23,7 +23,7 @@ void Numbers::printNumbers(void)
 	cout<<"a= "<<a<<",b= "<<b<<endl;
 }
 
-int Numbers::calAddition(void)
+int Numbers::Addition(void)
 {
 	return (a+b);
 }
@@ -32,7 +32,7 @@ int main()
 	Numbers num;
 	int add; 
 	num.readNumbers();
-	add=num.calAddition();
+	add=num.Addition();
 	num.printNumbers();
 	cout<<"Addition= "<<add<<endl;
 	return 0;	
